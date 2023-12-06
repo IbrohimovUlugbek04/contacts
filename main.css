@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: #fff;
+  background-color: #008b8b;
+}
+
+a {
+  display: block;
+}
+
+.container {
+  max-width: 940px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.hero__form-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+input {
+  display: block;
+  width: 400px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contact-item {
+  width: 200px;
+  padding: 20px;
+  margin-bottom: 10px;
+  background-color: #23b9b9;
+  border-radius: 5px;
+}
+
+.contact-id {
+  display: inline-block;
+  padding: 5px;
+  background-color: #ff0000;
+  border-radius: 50%;
+}
+
+.contact-link {
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+

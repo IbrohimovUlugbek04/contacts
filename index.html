@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <!-- site main start  -->
+    <main class="site-main">
+      <!-- site hero start  -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero-wrapper">
+            <h1 class="hero__title">Add a contact</h1>
+            <div class="hero__form-box">
+              <form class="contact-form">
+                <input
+                  class="input-name"
+                  type="text"
+                  name="user_name"
+                  required
+                  placeholder="Ismingizni kiriting!"
+                />
+                <input
+                  class="input-phone"
+                  type="number"
+                  name="user_phone"
+                  required
+                  placeholder="Telefon raqamingizni kiriting!"
+                />
+                <button class="hero__form-btn" type="submit">Contact add</button>
+              </form>
+              <ul class="hero__list js-list"></ul>
+            </div>
+
+            <template class="contact-temp">
+              <li class="contact-item">
+                <span class="contact-id"> </span>
+                <h3 class="contact-title"></h3>
+                <a class="contact-link"></a>
+                <button class="contact-btn" type="button">Delete</button>
+              </li>
+            </template>
+          </div>
+        </div>
+      </section>
+      <!-- site hero finish  -->
+    </main>
+    <!-- site main finish  -->
+
+    <script src="./main.js"></script>
+  </body>
+</html>
